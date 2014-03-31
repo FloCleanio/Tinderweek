@@ -6,7 +6,7 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- 
+
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
@@ -24,10 +24,16 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-li {
+ul li {
     display: inline;
     list-style: none;
     margin: 10px;
+}
+
+ul {
+    color: #f2f2f2;
+    padding-top: 10px;
+    padding-left: 0px;
 }
 
 /* Titles */
@@ -36,7 +42,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     color: #333;
 }
-
 
 /* Paragraph & Typographic */
 p {
@@ -51,11 +56,11 @@ p {
     margin-top: 30px;
 }
 .bottom-margin{
-    margin-bottom: 30px;h1
+    margin-bottom: 15px;h1
 }
 /* Links */
 a {
-    color: #f85c37;
+    color: #ffffff;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -67,7 +72,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #f85c37;
     text-decoration: none;
     outline: 0;
 }
@@ -128,7 +133,7 @@ a:after {
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
 }
- 
+
 .tilt:hover {
   -webkit-transform: rotate(-10deg);
      -moz-transform: rotate(-10deg);
@@ -142,15 +147,15 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	background: url(../img/header-bg.png) no-repeat center top;
 
-	
+
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 500px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -319,13 +324,13 @@ a:after {
 
 .modal-footer {
 	background: #f2f2f2;
-	margin-top: 0px; 
+	margin-top: 0px;
 }
 
 /* ==========================================================================
    Pricing Tables
    ========================================================================== */
-   
+
 .pricing-option {
     padding-bottom: 40px;
 }
